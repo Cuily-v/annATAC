@@ -6,5 +6,5 @@ Here, we introduce a novel method named annATAC, which is designed for the autom
 The pre-training data, demo data (labels) used in this article can be downloaded and obtained from the following link. https://drive.google.com/drive/folders/1ikvAgWNA1MyIrVU64Z7h_C2_O-LvMNCG.
 ## Demo
 In the demo folder, we provide an example for predicting the subtypes of Alzheimer's disease cells. The data folder contains the cell labels provided in the original paper. After running the AD_predict.py file, the accuracy of the model's prediction can be determined by comparing it with the original labels.
-## model 
+## Model 
 The pre-training and fine-tuning models after training can be obtained from the following link. https://drive.google.com/drive/folders/1UPtVtK3WOdlxEGzkfuNnDQuISFqcXm0z.
