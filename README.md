@@ -1,7 +1,8 @@
 # annATAC
-Here, we introduce a novel method named annATAC, which is designed for the automatic annotation of cell types in scATAC-seq data based on pre-training. This method primarily consists of three key components. During the pre-training phase, by training on a vast amount of unlabeled data, the model can learn the interaction relationships between peaks, thus building a preliminary understanding of the data features. Subsequently, in the fine-tuning stage, a small quantity of labeled data is utilized to conduct secondary training on the model. This enables the model to acquire the capability to accurately identify cell types. Finally, in the prediction stage, the trained model is applied to annotate scATAC-seq data. When compared with other automatic annotation methods across multiple datasets, annATAC demonstrates remarkable superiority in the annotation task.
+Here, we introduce a novel method named annATAC, which is designed for the automatic annotation of cell types in scATAC-seq data based on language model. This method primarily consists of three key components. Firstly, pre-training. The peak-cell matrix of a large amount of unlabeled scATAC-seq data is used for pre-training, enabling the model to fully learn the interaction relationships between peaks. Secondly, fine-tuning. A small amount of labeled data is employed to conduct secondary training on the pre-trained model, so that the model is fully formed. Finally, predict cell types. Cell-type prediction is performed on the unlabeled scATAC-seq data. 
 
-![GRAPHICAL_ABSTRACT](https://github.com/user-attachments/assets/bb0a50c1-870a-4b39-b264-f56b4463b420)
+![GRAPHICAL_ABSTRACT](https://github.com/user-attachments/assets/b81a0602-44fc-4be1-b94a-fc842e163316)
+
 ## Data
 The pre-training data, demo data (labels) used in this article can be downloaded and obtained from the following link. https://drive.google.com/drive/folders/1ikvAgWNA1MyIrVU64Z7h_C2_O-LvMNCG.
 ## Demo
